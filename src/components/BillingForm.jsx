@@ -19,7 +19,7 @@ const BillingForm = ({ handleAddItem }) => {
       onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col md:flex-row gap-4 mb-6"
     >
-      {/* Item Name Input */}
+      
       <div className="flex-1">
         <input
           type="text"
@@ -34,7 +34,7 @@ const BillingForm = ({ handleAddItem }) => {
         )}
       </div>
 
-      {/* Quantity Input */}
+    
       <div className="flex-1">
         <input
           type="number"
@@ -52,7 +52,7 @@ const BillingForm = ({ handleAddItem }) => {
         )}
       </div>
 
-      {/* Price Input */}
+    
       <div className="flex-1">
         <input
           type="number"
@@ -70,7 +70,7 @@ const BillingForm = ({ handleAddItem }) => {
         )}
       </div>
 
-      {/* Submit Button */}
+    
       <button
         type="submit"
         className="h-12 px-6 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-700 transition flex items-center justify-center"

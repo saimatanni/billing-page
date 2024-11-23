@@ -20,7 +20,7 @@ const BillingTable = ({ items, handleDeleteItem }) => {
                 key={item.id}
                 className={`${
                   index % 2 === 0 ? "bg-gray-50" : "bg-gray-100"
-                } hover:bg-gray-200 transition`}
+                } hover:bg-gray-100 transition`}
               >
                 <td className="py-3 px-4 text-gray-800">{item.itemName}</td>
                 <td className="py-3 px-4 text-gray-700">{item.quantity}</td>
